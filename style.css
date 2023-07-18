@@ -1,0 +1,114 @@
+header{
+    padding:30px 150px;
+    width:1850px;
+    height:130px ;
+    background:#fff;
+   
+    
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 15px;
+    align-items: center;
+   
+   
+    
+}
+nav > ul {
+    display: flex;
+    list-style: none;
+   
+
+}
+nav li{
+    margin-right:50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+nav a{
+    text-decoration: none;
+    color:#3C354F;
+}
+.btn-primary{
+    width:250px;
+    height:50px;
+    background: rgba(11,2,35,0.10);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius:8px ;
+}
+.fa-brands fa-youtube-btn{
+    width:2rem;
+    height:24px;
+    color:#f61c0d;
+}
+span{
+    color:#ff42a5;
+}
+.header-description{
+    font-size: 30px;
+    font-weight:600;
+    margin-left: 25px;
+}
+.img-part{
+    width:80px;
+    height:40px;
+    margin-top:10px;
+}
+/* header style end */
+/* main style */
+.div-section{
+    width:900px;
+    height:660px;
+    background:rgba(241,68,174,0.03);
+    background-image: url(images/Group\ 14.png);
+    text-align: center;
+    
+}
+.div-section:hover{
+    border:2px solid blue;
+}
+.div-description{
+    display:flex;
+    justify-content: space-around;
+    width:1900px;
+    height:5500px;
+}
+.head-1{
+  font-size: 40px;
+  font-weight:500;
+ 
+  
+ 
+}
+.head-2{
+    font-size: 85px;
+    font-weight: 600;
+    color:#f948b2;
+  
+   
+   
+}
+.p-tag{
+    font-size:15px;
+    font-weight: 400;
+    color:#534c64;
+
+}
+.btn-1{
+    padding:20px 40px;
+    background-color: #ff42a5;
+    border:none;
+    border-radius: 30px;
+    color:#fff;
+}
+.btn-2{
+    padding:20px 45px;
+    background-color: #4ec5f7;
+    border:none;
+    border-radius: 30px;
+    color:#fff;
+    
+}
