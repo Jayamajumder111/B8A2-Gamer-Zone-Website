@@ -1,4 +1,4 @@
-header{
+.header-part{
     padding:30px 150px;
     width:1850px;
     height:130px ;
@@ -233,4 +233,39 @@ span{
 .footer-5{
     display:flex;
     justify-content: center; 
+}
+
+/* mobile device style */
+@media screen and (max-width:576px) {
+   nav,
+    .div-description,
+    .game-img,
+    .download-section,
+    .Gaming-section,
+    nav > ul
+    {
+        flex-direction: column;
+       
+  }
+   .header-part{
+    width:800px;
+    height:50px;
+  }
+  .btn-primary{
+    width:150px;
+    height:30px;
+  }
+  nav{
+    margin-top: 0px;
+  }
+  .download-section{
+    padding:0px 0px;
+  }
+
+   
+}
+@media screen and (min-width:576px) and (max-width:960px) {
+    nav > ul{
+        flex-direction:column ;
+    }
 }
